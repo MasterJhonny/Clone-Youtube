@@ -295,3 +295,19 @@ a {
         justify-content: flex-end;
     }
 }
+
+@media (max-width: 450px){
+    .main .barra-lateral {
+        display:none;
+    }
+    .main-principal, .barra-main {
+        margin-left: -72px;
+    }
+    .item-container {
+        width: 300px;
+    }
+    iframe {
+        width: 267px;
+        height: 150px;
+    }
+}
